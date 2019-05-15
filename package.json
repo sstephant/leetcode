@@ -1,0 +1,35 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "Solving leetcode problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Sylvain STEPHANT <sstephant+github@gmail.com> (https://fr.linkedin.com/in/sstephant)",
+  "license": "not sure",
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "root": true,
+    "env": {
+      "mocha": true,
+      "node": true,
+      "es6": true
+    }
+  },
+  "mocha": {
+    "require": [
+      "dotenv/config",
+      "chai/register-expect"
+    ]
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4"
+  }
+}
